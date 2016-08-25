@@ -54,7 +54,7 @@ loginAPI = (function () {
                     console.error('No se pudo cargar formulario formulario de login ');
                 }
             };
-            xhttp.open("GET", "resources/templates/login.html?var=" + Math.random(), true);
+            xhttp.open("GET", "templates/login.html?var=" + Math.random(), true);
             xhttp.send();
         } catch (e) {
             console.error('error en la llamada AJAX al formulario de login');
