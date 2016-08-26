@@ -85,7 +85,7 @@ div#banner04{
 
     div#header{
         background-color: #a4a5a6;
-        position: "block";
+        position: block;
     }
     div#head02{
         position: relative;
